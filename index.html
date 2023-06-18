@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Aplicación de Notas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="container note h2">
+        <h1>Lista de Tareas</h1>
+        <p>Una lista de tareas es una herramienta útil para organizar y administrar tus actividades diarias, proyectos o cualquier tipo de trabajo. Con una lista de tareas, puedes anotar las tareas pendientes, establecer prioridades y realizar un seguimiento de tu progreso.</p>
+      </header>
+  <div class="container">
+    <form id="note-form">
+      <input type="text" id="title-input" placeholder="Tarea" required>
+      <textarea id="description-input" placeholder="Descripción" required></textarea>
+      <button type="submit">Guardar Tarea</button>
+    </form>
+    <div id="notes-container"></div>
+  </div>
+  
+  <script src="index.js"></script>
+  <footer>
+    <p>© 2023 Manuel Beltran. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
